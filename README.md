@@ -27,7 +27,7 @@ The demo app builds a very small database with statements and organisations. Bel
 
 ## Authorisation
 
-In the code, an organisation's address is restricted to user's authorised as admin.
+In the code, an organisation's address is restricted to users authorised as admin.
 
 ```c#
 [Authorize(Roles = new string[] { "Admin" })]
