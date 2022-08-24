@@ -53,7 +53,9 @@ To be allowed to run the following query:
 ```
 
 You need to create a token and add it as an authorisation header (using bearer).
+
 To do this, go to `/api/jwt/admin` and this will generate a [JSON Web Token](https://jwt.io).
+
 You can use token in your request.
 
 ## Paging
@@ -126,5 +128,5 @@ The following query filters an organisation on its name:
 
 ## Links
 
-- [Getting started with GraphQL in .NET - YouTube] (https://www.youtube.com/watch?v=qrh97hToWpM)
+- [Getting started with GraphQL in .NET - YouTube](https://www.youtube.com/watch?v=qrh97hToWpM)
 - [Hot Chocolate Graph QL Framework](https://chillicream.com/docs/hotchocolate)
