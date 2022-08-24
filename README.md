@@ -104,7 +104,27 @@ You can use this token in subsequent queries:
 }
 ```
 
+## Where 
+
+The following query filters an organisation on its name:
+
+```graphql
+{
+  organisations (where: {name: { contains: "Big"}}) {
+    nodes {
+      id,
+      companyId,
+      name,
+      statements {
+        id,
+        year
+      }
+    }
+  }
+}
+```
 
 ## Links
 
+- [Getting started with GraphQL in .NET - YouTube] (https://www.youtube.com/watch?v=qrh97hToWpM)
 - [Hot Chocolate Graph QL Framework](https://chillicream.com/docs/hotchocolate)
